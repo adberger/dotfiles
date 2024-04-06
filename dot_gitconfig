@@ -1,0 +1,19 @@
+[user]
+        name = Adrian Berger
+        email = adrian.berger@bedag.ch
+        signingkey = 85CA24CA7F4712C4
+[core]
+        autocrlf = false
+	editor = vim
+[push]
+        default = simple
+	autoSetupRemote = true
+[commit]
+        gpgsign = true
+[alias]
+        count = "!c() { \
+                git rev-list --count HEAD ^$1; \
+                }; c"
+[init]
+	templateDir = /Users/adrian/.git-template
+
