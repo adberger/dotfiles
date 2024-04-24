@@ -16,4 +16,5 @@
                 }; c"
 [init]
 	templateDir = /Users/adrian/.git-template
-
+[gpg]
+        program = /opt/homebrew/bin/gpg
