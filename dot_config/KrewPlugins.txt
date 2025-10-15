@@ -1,3 +1,8 @@
-# This file was generated using ./update.sh
-bedag/admin-connect
-bedag/node-connect
+foreach
+get-all
+rbac-tool
+sniff
+tree
+view-cert
+view-secret
+who-can
